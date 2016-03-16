@@ -18,6 +18,8 @@ public class SetProperties {
 		prop.setProperty("CrossoverRate","0.7");
 		prop.setProperty("MutationRate","0.1");
 		prop.setProperty("MaxPerturbation","0.3");
+		prop.setProperty("NumElite","4");
+		prop.setProperty("NumCopiesElite","1");
 		prop.store(output,null);
 		output.close();
 	}	
